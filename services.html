@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Harmony Health</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Harmony<span>Health</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="contact.html">Book Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+        <div class="container">
+            <div class="services-hero-content">
+                <h1 class="hero-title">Our Comprehensive Services</h1>
+                <p class="hero-subtitle">Holistic healthcare solutions tailored to your mental health and family wellness needs</p>
+                <a href="index.html#contact" class="btn btn-primary me-2">Book Appointment</a>
+                <a href="#services" class="btn btn-outline-primary">View Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Tabs Section -->
+    <section class="service-tabs-container" id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="section-title">Specialized Care Services</h2>
+                    <p>Explore our range of mental health and family practitioner services</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-5" id="servicesTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="mental-health-tab" data-bs-toggle="pill" data-bs-target="#mental-health" type="button" role="tab" aria-controls="mental-health" aria-selected="true">
+                                <i class="fas fa-brain me-2"></i> Mental Health
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="family-health-tab" data-bs-toggle="pill" data-bs-target="#family-health" type="button" role="tab" aria-controls="family-health" aria-selected="false">
+                                <i class="fas fa-home me-2"></i> Family Health
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    <div class="tab-content" id="servicesTabContent">
+                        <!-- Mental Health Services -->
+                        <div class="tab-pane fade show active" id="mental-health" role="tabpanel" aria-labelledby="mental-health-tab">
+                            <div class="row">
+                                <!-- Anxiety Treatment -->
+                                <div class="col-lg-6" id="anxiety">
+                                    <div class="service-detail-card">
+                                        <div class="service-icon">
+                                            <i class="fas fa-brain"></i>
+                                        </div>
+                                        <h3 class="service-title">Anxiety Treatment</h3>
+                                        <p>Comprehensive care for anxiety disorders including cognitive behavioral therapy and medication management.</p>
+                                        <ul class="service-features">
+                                            <li>Personalized treatment plans</li>
+                                            <li>Evidence-based interventions</li>
+                                            <li>Coping strategy development</li>
+                                            <li>Relaxation techniques</li>
+                                        </ul>
+                                        <a href="index.html#contact" class="btn btn-outline-primary">Learn More</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Depression Therapy -->
+                                <div class="col-lg-6" id="depression">
+                                    <div class="service-detail-card">
+                                        <div class="service-icon">
+                                            <i class="fas fa-cloud-sun"></i>
+                                        </div>
+                                        <h3 class="service-title">Depression Therapy</h3>
+                                        <p>Effective treatment for depressive disorders with a combination of therapy and medication options.</p>
+                                        <ul class="service-features">
+                                            <li>Cognitive behavioral therapy</li>
+                                            <li>Interpersonal therapy</li>
+                                            <li>Medication management</li>
+                                            <li>Lifestyle recommendations</li>
+                                        </ul>
+                                        <a href="index.html#contact" class="btn btn-outline-primary">Learn More</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Additional Mental Health Services would go here -->
+                            </div>
+                        </div>
+                        
+                        <!-- Family Health Services -->
+                        <div class="tab-pane fade" id="family-health" role="tabpanel" aria-labelledby="family-health-tab">
+                            <div class="row">
+                                <!-- Pediatric Care -->
+                                <div class="col-lg-6" id="pediatric">
+                                    <div class="service-detail-card">
+                                        <div class="service-icon">
+                                            <i class="fas fa-baby"></i>
+                                        </div>
+                                        <h3 class="service-title">Pediatric Care</h3>
+                                        <p>Comprehensive healthcare for children from infancy through adolescence.</p>
+                                        <ul class="service-features">
+                                            <li>Well-child visits</li>
+                                            <li>Immunizations</li>
+                                            <li>Developmental screenings</li>
+                                            <li>Acute illness care</li>
+                                        </ul>
+                                        <a href="index.html#contact" class="btn btn-outline-primary">Learn More</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Women's Health -->
+                                <div class="col-lg-6" id="womens-health">
+                                    <div class="service-detail-card">
+                                        <div class="service-icon">
+                                            <i class="fas fa-female"></i>
+                                        </div>
+                                        <h3 class="service-title">Women's Health</h3>
+                                        <p>Specialized care addressing women's unique health needs across all life stages.</p>
+                                        <ul class="service-features">
+                                            <li>Annual well-woman exams</li>
+                                            <li>Contraceptive counseling</li>
+                                            <li>Menopause management</li>
+                                            <li>Preventive screenings</li>
+                                        </ul>
+                                        <a href="index.html#contact" class="btn btn-outline-primary">Learn More</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Additional Family Health Services would go here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5" style="background-color: var(--light-teal);">
+        <div class="container text-center py-4">
+            <h2 class="mb-4">Ready to Begin Your Wellness Journey?</h2>
+            <p class="lead mb-4">Contact us today to schedule your initial consultation</p>
+            <a href="index.html#contact" class="btn btn-primary btn-lg me-3">Book Appointment</a>
+            <a href="tel:5551234567" class="btn btn-outline-primary btn-lg">Call Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="index.html" class="footer-logo">Harmony<span>Health</span></a>
+                    <p class="footer-about">Providing compassionate healthcare services with a focus on mental health and family wellness.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-links">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="services.html#mental-health">Mental Health</a></li>
+                            <li><a href="services.html#family-health">Family Health</a></li>
+                            <li><a href="services.html#anxiety">Anxiety Treatment</a></li>
+                            <li><a href="services.html#depression">Depression Therapy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-links">
+                        <h5>Contact</h5>
+                        <ul>
+                            <li><a href="tel:5551234567">(555) 123-4567</a></li>
+                            <li><a href="mailto:info@harmonyhealth.com">info@harmonyhealth.com</a></li>
+                            <li>123 Wellness Way</li>
+                            <li>Healthville, HV 12345</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Harmony Health. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Tab activation from URL hash
+        document.addEventListener('DOMContentLoaded', function() {
+            // Activate tab if hash matches
+            if(window.location.hash === '#family-health') {
+                const tab = new bootstrap.Tab(document.querySelector('#family-health-tab'));
+                tab.show();
+            }
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if(target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
